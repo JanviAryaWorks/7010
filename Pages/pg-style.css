@@ -32,8 +32,6 @@
    align-items: center;
 }
 
-
-
 .nav-topic-links a {
    background-color: #2e2e2e;margin: 0 .4rem;
    padding: .2rem .5rem;
@@ -60,13 +58,11 @@
 
 .questions {
    height: 100%;
-   width: 25%;
+   width: 30%;
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   /* align-items: center; */
-   padding: 1rem;
-   /* background-color: aqua; */
+   padding: .6rem;
 }
 
 .questions h2 {
@@ -91,8 +87,9 @@
 .questions a:hover {
    background-color: rgb(61, 61, 61);
    color: #56b6f7;
-   animation: shake 0.3s ease-in-out; /* Reduced duration for a subtler effect */
-   font-weight: 400;
+   animation: shake 0.7s ease-in-out;
+   /*Reduceddurationforasubtlereffect*/font-weight: 400;
+   -webkit-animation: shake 0.7s ease-in-out;
 }
 
 /* Subtle Shake Animation */
