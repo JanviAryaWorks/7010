@@ -49,7 +49,7 @@ h1 {
    color: #fff;
    padding: 1rem;
    font-size: 2cm;
-   font-weight: 900;user-select: none;
+   font-weight: 900;user-select: none;text-align: center;
 }
 
 .links {
